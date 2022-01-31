@@ -101,3 +101,73 @@ if (!(flavor === 'watermalon' || flavor === 'cherry')) {
     console.log(`We have that flavor !`)
 }
 
+
+
+
+
+// Perfomance Review
+// 3 - superstar
+// 2 - meets expectations
+// 1 - needs improvement
+
+
+// Example 1
+let rating = 3;
+
+if (rating === 3) {
+    console.log("Superstar. Rating=3")
+}
+else if (rating === 2) {
+    console.log("Meets expectations. Rating=2")
+}
+else if (rating === 1) {
+    console.log("Needs improvement. Rating=1")
+}
+else {
+    console.log("Invalid rating !")
+}
+
+// Example 2
+
+let number = Math.random() * 10 + 1;
+
+if (number < 1) {
+    console.log("OK !! Number < 1")
+}
+else if (number > 1) {
+    console.log("NOT OK ! Number > 1")
+}
+
+// Example 3
+
+let highScore = 5000;
+let userScore = Math.floor(Math.random()*10000);
+
+if (userScore >= highScore) {
+    console.log(
+        `Congrats, you have the new high cscore of ${userScore}`
+        );
+    highScore = userScore;
+}
+else {
+    console.log(
+        `Good Game. Your score of ${userScore} did not beat the high score of ${highScore}`
+    );
+}
+
+
+// Example 4
+
+let password = "ca t";
+
+if (password.length <= 6) {
+    if (password.indexOf(" ") !== -1) {
+        console.log(`Valid password. Password cannot includ space.`);
+        }
+    else {
+        console.log("Valid password. Password must be longer!");
+    }
+}
+else {
+    console.log("Password too short!")
+}
