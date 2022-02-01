@@ -5,8 +5,10 @@ Big World
 
 
 
-error: 
-
+error:
 study Non fast-forward merge
 
 conflict solutions
+
+added new
+
