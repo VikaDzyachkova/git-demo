@@ -8,3 +8,5 @@ Big World
 error: 
 
 study Non fast-forward merge
+
+conflict solutions
